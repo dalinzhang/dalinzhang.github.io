@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html><head><meta http-equiv="Content-Type" content="text/html">
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,6 +20,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 <link rel="stylesheet" href="assets/css/academicons.min.css"/>
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/foundation/5.5.3/js/foundation.min.js"></script>
+<script src="https://cdn.staticfile.org/foundation/5.5.3/js/vendor/modernizr.js"></script>
 
 <style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
 .en-markup-crop-options {
@@ -90,7 +93,7 @@ My current research interest lies in solving key open problems in biological and
 developing machine-learning techniques, and designing effective and efficient algorithms.
 <hr>
 
-<section class="section news">
+
 <h3>Recent News</h3>
 <ul>
     <li>[Sep 2019] One paper is accepted by IEEE Transactions on Neural System and Rehabiliatation Engineering (TNSRE)!</li>
@@ -100,12 +103,25 @@ developing machine-learning techniques, and designing effective and efficient al
     <li>[May 2019] One paper is accepted by IJCAI'19.</li>
 </ul>
 
+<h2>可折叠实例</h2>
+<ul class="accordion" data-accordion>
+  <li class="accordion-navigation">
+    <a href="#demo">简单的可折叠实例</a>
+    <div id="demo" class="content">
+     菜鸟教程 -- 学的不仅是技术，更是梦想！！！
+    </div>
+  </li>
+</ul>
 
-<p id="more">
+<!-- 初始化 Foundation JS -->
+<script>
+$(document).ready(function() {
+    $(document).foundation();
+})
+</script>
+    
 [Mar 2018] One paper is accepted by IEEE Signal Processing Letters (SPL, IF=3.268).
-</p>
-    <a href="#" onclick="goggleText(this, 'more'); return false;">Read More</a>
-</section>
+
     
 <!-- <hr> -->
 <!-- <h3>Awards & Honors</h3> -->
