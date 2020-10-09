@@ -4,7 +4,7 @@
 
 body {
     background-color:#d8d8d8;
-	font-size:110%;
+	font-size:100%;
 	margin:0;
 }
 
@@ -23,7 +23,7 @@ body {
 	border-width: 0px; 
 	line-height: 1.4em;
 	border-top:none;
-	max-width: 1000px;
+	max-width: 1500px;
 }
 
 .header {
